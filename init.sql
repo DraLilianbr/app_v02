@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS answers (
+  id SERIAL PRIMARY KEY,
+  answer TEXT NOT NULL,
+  submitted_at TIMESTAMP NOT NULL
+);
